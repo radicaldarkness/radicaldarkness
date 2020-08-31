@@ -70,6 +70,11 @@ bg-primary {
     background-color: #ea4a4a!important;
 }
 
+.footer
+{
+    background-color: #ea4a4a!important;
+}
+
 @media (min-width: 992px)
     {
         .masthead .masthead-heading

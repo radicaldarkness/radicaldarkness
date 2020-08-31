@@ -9,7 +9,7 @@
 }
 #mainNav
 {
-    padding: 0 !important;
+    padding: 0 1em!important;
 }
 .navbar-brand img
 {
@@ -31,12 +31,18 @@
 #mainNav .navbar-toggler
 {
     font-size: 1em!important;
-    /* padding: 0.6rem; */
-    /* margin: 0.5rem; */
+    padding: 0!important;
+    margin: 0.5rem!important;
+    margin-right: 0!important;
     border-radius: 100%!important;
     background-color: #fb6b6d!important;
     width: 3em!important;
     height: 3em!important;
+}
+
+#mainNav .navbar-toggler:hover
+{
+    background-color: #d45b5d!important;
 }
 
 @media (min-width: 992px)

@@ -1,8 +1,35 @@
 .bg-secondary
 {
-    background: #252527 !important
+    background: #252527 !important;
 }
 .masthead
 {
-    background: #181819 !important
+    background: #181819 !important;
+}
+#mainNav
+{
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    max-width: 10.5rem !important;
+}
+#mainNav .navbar-brand
+{
+    font-size: 0 !important;
+}
+
+.main_jumbotron
+{
+    height: 100vh;
+    flex-direction: row!important;
+    justify-content: center;
+}
+
+@media (min-width: 992px)
+    {
+        .masthead .masthead-heading
+        {
+            font-size: 3rem;
+        }
 }

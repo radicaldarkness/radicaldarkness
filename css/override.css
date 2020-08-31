@@ -33,4 +33,9 @@
         {
             font-size: 3rem;
         }
+        
+        .navbar-brand img
+        {
+            max-width: 8.5rem !important;
+        }
 }

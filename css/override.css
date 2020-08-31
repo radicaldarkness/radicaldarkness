@@ -40,6 +40,11 @@
     height: 3em!important;
 }
 
+#mainNav .navbar-nav li.nav-item a.nav-link:hover
+{
+    color: #fb6b6d;
+}
+
 #mainNav .navbar-toggler:hover
 {
     background-color: #d45b5d!important;

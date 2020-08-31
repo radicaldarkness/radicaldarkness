@@ -13,11 +13,12 @@
 }
 .navbar-brand img
 {
-    max-width: 10.5rem !important;
+    max-width: 11.5rem !important;
 }
 #mainNav .navbar-brand
 {
     font-size: 0 !important;
+    padding: 0 !important;
 }
 
 .main_jumbotron
@@ -25,6 +26,17 @@
     height: 100vh;
     flex-direction: row!important;
     justify-content: center;
+}
+
+#mainNav .navbar-toggler
+{
+    font-size: 1em;
+    /* padding: 0.6rem; */
+    /* margin: 0.5rem; */
+    border-radius: 100%!important;
+    background-color: #fb6b6d!important;
+    width: 3em;
+    height: 3em;
 }
 
 @media (min-width: 992px)
@@ -36,6 +48,6 @@
         
         .navbar-brand img
         {
-            max-width: 8.5rem !important;
+            max-width: 9.5rem !important;
         }
 }

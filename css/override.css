@@ -24,7 +24,8 @@ bg-primary {
 }
 .masthead
 {
-    background: #181819 !important;
+    /*background: #181819 !important;*/
+    *background: none !important;
     padding-top: 0 !important;
 }
 #mainNav
@@ -83,6 +84,7 @@ bg-primary {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  z-index: -1;
 }
 
 @media (min-width: 992px)
